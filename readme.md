@@ -1,6 +1,6 @@
-<div align=center><img width="300" src="https://github.com/Potatotatotato/HoloCubic/blob/master/Images/HoloCubic.jpg"/></div>
-
 # HoloCubic--多功能透明显示屏桌面站
+
+<div align=center><img width="300" src="https://github.com/Potatotatotato/HoloCubic/blob/master/Images/HoloCubic.jpg"/></div>
 
 ## 在原项目上作出的改进（改变）
   1. PCB优化；
@@ -21,12 +21,16 @@
 ## 外壳
 ### navie版本
   这个版本需要3d打印两个部分然后组装，上下部分可以用磁铁吸附。但这个版本需要粘贴棱镜，稚晖君推荐的是OCA干胶。然而我没想到这玩意这么难粘，我粘了20次都失败了，始终有气泡，还弄坏了一块屏幕，我真的无语了，直接放弃。
-![](/Images/metal_model.jpg)
+  
+  <div align=center><img width="300" src="https://github.com/Potatotatotato/HoloCubic/blob/master/Images/metal_model.jpg"/></div>
+
 ### metal版本
   我使用solidworks绘制了可用光固化3d打印的metal板模型，并开源出来。本人强烈这个版本，因为这个版本不需要粘屏幕。取而代之的是，我采用了白乳胶将棱镜粘到外壳上，效果还不错！
   
   本模型适用于稚晖君naive版本pcb，适用于1.6mm板厚（1.2mm板厚应该也行，大家结合3D图查找有无冲突的部分），强烈推荐用半透明树脂3D打印，以获得最好的灯光效果。此外，我将solidworks源文件分享出来的原因是：由于最开始打错了板子，所以希望在网上找到metal版本的外壳的3D文件，进而修改成适合naive电路板的外壳，但找了很久都只有stl文件。无奈之下，只有自己画图。
-  ![](/Images/navie_model.jpg)
+  
+  <div align=center><img width="300" src="https://github.com/Potatotatotato/HoloCubic/blob/master/Images/navie_model.jpg"/></div>
+  
 ## 软件
   在稚晖君移植驱动的基础上，模仿透明小电视AIO版本[透明小电视AIO版本制作经验分享](https://www.bilibili.com/video/BV1d3411T77a/?spm_id_from=333.788.recommend_more_video.0&vd_source=e6cfc8577ccc9621465b12d49ef2c1c3)，用lvgl开发了天气页面。限于个人能力，没有实现app切换，等以后有空了再来完善。
 
