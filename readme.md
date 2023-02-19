@@ -1,4 +1,4 @@
-<div align=center><img width="150" height="150" src="https://github.com/Potatotatotato/HoloCubic/blob/master/Images/HoloCubic.jpg"/></div>
+<div align=center><img width="300" src="https://github.com/Potatotatotato/HoloCubic/blob/master/Images/HoloCubic.jpg"/></div>
 
 # HoloCubic--多功能透明显示屏桌面站
 
