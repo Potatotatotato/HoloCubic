@@ -1,4 +1,4 @@
-![](/5.Docs/Images/Holo1.jpg)
+![](/Images/HoloCubic.jpg)
 
 # HoloCubic--多功能透明显示屏桌面站
 
@@ -21,18 +21,23 @@
 ## 外壳
 ### navie版本
   这个版本需要3d打印两个部分然后组装，上下部分可以用磁铁吸附。但这个版本需要粘贴棱镜，稚晖君推荐的是OCA干胶。然而我没想到这玩意这么难粘，我粘了20次都失败了，始终有气泡，还弄坏了一块屏幕，我真的无语了，直接放弃。
+![](/Images/metal_model.jpg)
 ### metal版本
   我使用solidworks绘制了可用光固化3d打印的metal板模型，并开源出来。本人强烈这个版本，因为这个版本不需要粘屏幕。取而代之的是，我采用了白乳胶将棱镜粘到外壳上，效果还不错！
   
   本模型适用于稚晖君naive版本pcb，适用于1.6mm板厚（1.2mm板厚应该也行，大家结合3D图查找有无冲突的部分），强烈推荐用半透明树脂3D打印，以获得最好的灯光效果。此外，我将solidworks源文件分享出来的原因是：由于最开始打错了板子，所以希望在网上找到metal版本的外壳的3D文件，进而修改成适合naive电路板的外壳，但找了很久都只有stl文件。无奈之下，只有自己画图。
-
+  ![](/Images/navie_model.jpg)
 ## 软件
   在稚晖君移植驱动的基础上，模仿透明小电视AIO版本[透明小电视AIO版本制作经验分享](https://www.bilibili.com/video/BV1d3411T77a/?spm_id_from=333.788.recommend_more_video.0&vd_source=e6cfc8577ccc9621465b12d49ef2c1c3)，用lvgl开发了天气页面。限于个人能力，没有实现app切换，等以后有空了再来完善。
 
-## LVGL播放动画的流程
+## LVGL制作动画的流程
   1. 制作或下载动画，导出图片序列至文件夹；
+  ![](/Images/make_anim_1.jpg)
   2. 使用LVGL在线的image converter，选择合适的color format，将图片序列导出为.c文件序列。由于我的动画颜色较少，所以选择了2位深度的调色板；
+  ![](/Images/make_anim_2.jpg)
   3. 将所有的.c文件合并，注意只保留数组和结构体。这里我编写了一段c++代码来进行自动合并；
+  ![](/Images/make_anim_3.jpg)
   4. 用notepad++ 批量修改.c图片文件的宏定义；
+  ![](/Images/make_anim_4.jpg)
   5. 导入你的项目。
 
