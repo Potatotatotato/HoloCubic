@@ -1,8 +1,9 @@
 # HoloCubic--多功能透明显示屏桌面站
 		
 <div align=center><img width="300" src="https://github.com/Potatotatotato/HoloCubic/blob/master/Images/HoloCubic.jpg"/></div>
-		
-		
+ 
+  
+   
 ## 在原项目上作出的改进（改变）
   ### 1. PCB优化；
   ### 2. 用solidworks仿制了metal板外壳，使用半透明树脂光固化打印；
