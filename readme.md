@@ -45,7 +45,7 @@
   
   ### 3. 将所有的.c文件合并，注意只保留数组和结构体。这里我编写了一段c++代码来进行自动合并
   
-```
+```cpp
 #pragma warning(disable:4996)
 #include <iostream>
 #include <vector>
@@ -129,7 +129,6 @@ int main()
   
   
   ### 4. 用notepad++ 批量修改.c图片文件的宏定义
-  
-  ![](/Images/make_anim_4.jpg)
-  
+		`\d` 表示匹配一个数字字符。
+  <div align=center><img width="600" src="https://github.com/Potatotatotato/HoloCubic/blob/master/Images/make_anim_4.jpg"/></div>
 
