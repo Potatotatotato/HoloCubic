@@ -59,8 +59,9 @@ using std::endl;
 using std::string;
 using std::vector;
 
+#define IMG_AMOUNT 37
 
-//定位到某一行
+//函数：定位到某一行
 int GetSeek(FILE* fp, int line)	//必须是可读的指针,只有可写的不行 
 {
 	char ch;
@@ -90,23 +91,26 @@ int main()
 {
 	char tempChar;
 	char tempImgPath[100];
-
+	
 	string dirPath = "C:\\Users\\28715\\Desktop\\CXK\\";
+	string rawImgPath = "C:\\Users\\28715\\Desktop\\CXK\\CXK%02d.c";
 	string desImgPath = dirPath + "CXK.c";
 	
 	FILE* desImg = fopen(desImgPath.c_str(), "a+");
 	if (desImg == NULL)
 		printf("Can't create destination img.\r\n");
-
-	for (int i = 0; i < 37; i++)
+	
+	//开始复制.c图片文件
+	for (int i = 0; i < IMG_AMOUNT; i++)
 	{
-		sprintf(tempImgPath, "C:\\Users\\28715\\Desktop\\CXK\\CXK%02d.c", i);
+		//打开需要转化的图片
+		sprintf(tempImgPath, rawImgPath.c_str(), i);
 		printf("%s\r\n", tempImgPath);
 		FILE* tempImg = fopen(tempImgPath, "r");
 		if (tempImg == NULL)
 			printf("Can't open temp img.\r\n");
 
-		//跳转到某一行
+		//前面的23行略过
 		GetSeek(tempImg, 23);
 
 		//开始复制文件
