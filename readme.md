@@ -35,19 +35,19 @@
   在稚晖君移植驱动的基础上，模仿透明小电视AIO版本[透明小电视AIO版本制作经验分享](https://www.bilibili.com/video/BV1d3411T77a/?spm_id_from=333.788.recommend_more_video.0&vd_source=e6cfc8577ccc9621465b12d49ef2c1c3)，用lvgl开发了天气页面。限于个人能力，没有实现app切换，等以后有空了再来完善。
 
 ## LVGL生成动画文件的流程
-  ### 1. 制作或下载动画，导出图片序列至文件夹；
+  ### 1. 制作或下载动画，导出图片序列至文件夹
   
   ![](/Images/make_anim_1.jpg)
   
   
-  ### 2. 使用LVGL在线的image converter，选择合适的color format，将图片序列导出为.c文件序列。由于我的动画颜色较少，所以选择了2位深度的调色板；
+  ### 2. 使用LVGL在线的image converter，选择合适的color format，将图片序列导出为.c文件序列
   
   ![](/Images/make_anim_2.jpg)
   
   
-  ### 3. 将所有的.c文件合并，注意只保留数组和结构体。这里我编写了一段c++代码来进行自动合并；
+  ### 3. 将所有的.c文件合并，注意只保留数组和结构体。这里我编写了一段c++代码来进行自动合并
   
-'''
+```
 #pragma warning(disable:4996)
 #include <iostream>
 #include <vector>
@@ -123,11 +123,10 @@ int main()
 
 	return 0;
 }
-
-'''
+```
   
   
-  ### 4. 用notepad++ 批量修改.c图片文件的宏定义；
+  ### 4. 用notepad++ 批量修改.c图片文件的宏定义
   
   ![](/Images/make_anim_4.jpg)
   
