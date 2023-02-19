@@ -130,7 +130,7 @@ int main()
   
   ### 4. 用notepad++ 批量修改.c图片文件的宏定义
 
-  <div align=center><img width="600" src="https://github.com/Potatotatotato/HoloCubic/blob/master/Images/make_anim_4.jpg"/></div>
+  <div align=center><img width="800" src="https://github.com/Potatotatotato/HoloCubic/blob/master/Images/make_anim_4.jpg"/></div>
   
   ---
 `\d` 表示匹配一个数字字符。
