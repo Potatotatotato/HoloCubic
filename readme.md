@@ -132,5 +132,5 @@ int main()
 
   <div align=center><img width="1000" src="https://github.com/Potatotatotato/HoloCubic/blob/master/Images/make_anim_4.jpg"/></div>
   
-  ...
+  ***
 `\d` 表示匹配一个数字字符。
