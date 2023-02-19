@@ -29,7 +29,7 @@
 ### metal版本
   我使用solidworks绘制了可用光固化3d打印的metal板模型，并开源出来。本人强烈这个版本，因为这个版本不需要粘屏幕。取而代之的是，我采用了白乳胶将棱镜粘到外壳上，效果还不错！
   
-		  本模型适用于稚晖君naive版本pcb，适用于1.6mm板厚（1.2mm板厚应该也行，大家结合3D图查找有无冲突的部分），强烈推荐用半透明树脂3D打印，以获得最好的灯光效果。此外，我将solidworks源文件分享出来的原因是：由于最开始打错了板子，所以希望在网上找到metal版本的外壳的3D文件，进而修改成适合naive电路板的外壳，但找了很久都只有stl文件。无奈之下，只有自己画图。
+  本模型适用于稚晖君naive版本pcb，适用于1.6mm板厚（1.2mm板厚应该也行，大家结合3D图查找有无冲突的部分），强烈推荐用半透明树脂3D打印，以获得最好的灯光效果。此外，我将solidworks源文件分享出来的原因是：由于最开始打错了板子，所以希望在网上找到metal版本的外壳的3D文件，进而修改成适合naive电路板的外壳，但找了很久都只有stl文件。无奈之下，只有自己画图。
   
   <div align=center><img width="300" src="https://github.com/Potatotatotato/HoloCubic/blob/master/Images/navie_model.jpg"/></div>
   
