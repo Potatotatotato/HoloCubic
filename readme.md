@@ -47,7 +47,7 @@
   
   ### 3. 将所有的.c文件合并，注意只保留数组和结构体。这里我编写了一段c++代码来进行自动合并；
   
-  '<
+'''
 #pragma warning(disable:4996)
 #include <iostream>
 #include <vector>
@@ -124,7 +124,7 @@ int main()
 	return 0;
 }
 
->'
+'''
   
   
   ### 4. 用notepad++ 批量修改.c图片文件的宏定义；
