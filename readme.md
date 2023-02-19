@@ -1,4 +1,4 @@
-![](/Images/HoloCubic.jpg)
+<div align=center><img width="150" height="150" src="https://github.com/Potatotatotato/HoloCubic/edit/master/Images/HoloCubic.jpg"/></div>
 
 # HoloCubic--多功能透明显示屏桌面站
 
