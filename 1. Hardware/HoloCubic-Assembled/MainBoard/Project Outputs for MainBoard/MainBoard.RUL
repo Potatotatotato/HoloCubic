@@ -1,0 +1,5 @@
+DRC Rules Export File for PCB: C:\Users\28715\Desktop\单片机\有趣的项目\稚晖君\HoloCubic-main\1.Hardware\Naive Version\HoloCubic-Assembled\MainBoard\MainBoard.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

@@ -1,0 +1,14 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [MainBoard.PrjPCB]
+   Generated File[MainBoard-RoundHoles-Plated.TXT]
+   Generated File[MainBoard-RoundHoles-NonPlated.TXT]
+   Generated File[MainBoard-SlotHoles-Plated.TXT]
+   Generated File[MainBoard.LDP]
+   Generated File[MainBoard.DRR]
+
+
+Files Generated   : 5
+Documents Printed : 0
+
+Finished Output Generation At 18:35:40 On 2022/11/23

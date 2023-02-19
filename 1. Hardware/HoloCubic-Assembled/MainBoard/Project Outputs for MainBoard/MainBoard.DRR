@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: MainBoard.PcbDoc   2022/11/23  18:35:40
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top1 to Bottom4
+ASCII Plated RoundHoles File : MainBoard-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : MainBoard-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : MainBoard-SlotHoles-Plated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      10mil (0.254mm)                                           Round             117       PTH        9.65inch (244.98mm)
+T2      12mil (0.305mm)                                           Round             20        PTH        3.08inch (78.17mm)
+T3      24mil (0.6mm)                                             Slot              4         PTH        1.47inch (37.22mm)
+T4      26mil (0.65mm)                                            Round             2         PTH        0.23inch (5.78mm)
+T5      35mil (0.9mm)                                             Round             1         PTH        0.00inch (0.00mm)
+T6      39mil (1mm)                                               Round             1         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              145
+
+Total Processing Time (hh:mm:ss) : 00:00:00

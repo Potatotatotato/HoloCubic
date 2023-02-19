@@ -1,0 +1,11 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [ExtendBoard.PrjPCB]
+   Generated File[ExtendBoard.LDP]
+   Generated File[ExtendBoard.DRR]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 23:49:36 On 2022/9/17

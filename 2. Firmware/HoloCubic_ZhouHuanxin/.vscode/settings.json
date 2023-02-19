@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "lv_port_disp.h": "c",
+        "lvgl.h": "c",
+        "tft_espi.h": "c",
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "functional": "cpp",
+        "memory": "cpp",
+        "sstream": "cpp",
+        "desktop_win.h": "c",
+        "optional": "c",
+        "istream": "c",
+        "ostream": "c",
+        "system_error": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c",
+        "deque": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "initializer_list": "cpp",
+        "*.tcc": "cpp"
+    }
+}

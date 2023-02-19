@@ -1,0 +1,4 @@
+Layer Pairs Export File for PCB: C:\Users\28715\Desktop\单片机\有趣的项目\稚晖君\HoloCubic-main\1.Hardware\Naive Version\HoloCubic-Assembled\MainBoard\MainBoard.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=mainboard-roundholes-plated.txt|DrillLayers=gtl,gp1,gp2,gbl
+LayersSetName=Top_Bot_Plated_Slot_Holes|DrillFile=mainboard-slotholes-plated.txt|DrillLayers=gtl,gp1,gp2,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=mainboard-roundholes-nonplated.txt|DrillLayers=gtl,gp1,gp2,gbl
