@@ -38,14 +38,10 @@
 
 ## LVGL生成动画文件的流程
   ### 1. 制作或下载动画，导出图片序列至文件夹
-  
-  ![](/Images/make_anim_1.jpg)
-  
+  <div align=center><img width="600" src="https://github.com/Potatotatotato/HoloCubic/blob/master/Images/make_anim_1.jpg"/></div>
   
   ### 2. 使用LVGL在线的image converter，选择合适的color format，将图片序列导出为.c文件序列
-  
-  ![](/Images/make_anim_2.jpg)
-  
+  <div align=center><img width="600" src="https://github.com/Potatotatotato/HoloCubic/blob/master/Images/make_anim_2.jpg"/></div>
   
   ### 3. 将所有的.c文件合并，注意只保留数组和结构体。这里我编写了一段c++代码来进行自动合并
   
