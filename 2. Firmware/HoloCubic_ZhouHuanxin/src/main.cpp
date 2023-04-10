@@ -35,6 +35,7 @@ TFT_eSPI tft = TFT_eSPI();
 //================================
 void setup()
 {
+  //请在sdcard.cpp文件里设置你的wifi、天气API账号
   Serial.begin(115200);
 
   // lv_log_register_print_cb(my_print);   //记录log
