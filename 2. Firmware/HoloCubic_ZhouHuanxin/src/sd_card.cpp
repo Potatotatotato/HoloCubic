@@ -5,11 +5,11 @@
 //================================
 //      Macro Definition
 //================================
-#define DEFAULT_SSID "zhou"
-#define DEFAYLT_PASSWORD "77777777"
+#define DEFAULT_SSID "your_ssid"
+#define DEFAYLT_PASSWORD "your_password"
 #define DEFAULT_CITY "上海"
-#define DEFAULT_WEATHER_APPLY_ID "55335991"
-#define DEFAULT_WEATHER_APPLY_SECRET "6WAFrjOF"
+#define DEFAULT_WEATHER_APPLY_ID "your_api_account" 	//https://www.yiketianqi.com/index/doc?version=day
+#define DEFAULT_WEATHER_APPLY_SECRET "your_api_code"
 
 //================================
 //      Function Declaration
